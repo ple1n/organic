@@ -1,5 +1,5 @@
 
-# Raloxifene-Dipalmitate for injection
+# Raloxifene Esters for injection
 
 Obtain Raloxifene (freebase) directly, or through the following method.
 
@@ -28,10 +28,11 @@ Currently the EtAc phase contains water. Repeatedly wash the mixture to reduce t
 
 Add an acyl chloride (here I got palmitoyl chloride) in excess. Put it on heat pad at 60C for hours, react until all powder turns off-white.
 
-Raloxifene-dipalmitate
+Raloxifene-dipalmitate / palmitate
 
 - Light-yellow powder with light yellow fluorecence
 - Forms milky suspension in EtAc
+- It seems in EtAc the reaction produces light yellowed ester, given enough time, while reaction in 2MeTHF produces white ester. Could be raloxifene-palmitate and raloxifene-dipalmitate.
 
 In no case should the heat pad exceed 135C. Dry heat sterilization of an oil solution of the drug is impossible as it degrades the chemical (150C for 30mins), forming brown sediment.
 
@@ -46,5 +47,7 @@ I decided to use EtAc suspension mixed with walnut oil.
 EtAc is known to form a stable, fine suspension with Raloxifene-dipalmitate. The oil is used to reduce hypertonicity.
 
 There doesn't seem to be a need to make it a solution and not a suspension. DMSO injected would leech out in the body and have Ralox recrystalized anyway. 
+
+Volume of total injectable needs to be minimized, on the order of 200uL. 
 
 TODO.
