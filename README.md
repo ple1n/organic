@@ -1,3 +1,44 @@
+# General guide to biohacking
+
+If you want to fix your body for any kind of reason, biohacking is welcome.
+
+You better do it as early as possible before things happen irreversibly. 
+
+> Is it okay to take chemical reagents?
+
+Yes it is. Reagent companies may buy from the same production lines, or set up their own production which uses HPLC for purification. 
+
+HPLC purification might even exceed the standard way of medicinal production, in quality. 
+
+Such way of purification makes sure the impurities are similar in affinity to the phases. This typically implies structural similarity, and structural similarity implies similar biological effects.
+
+It's recommended to take _potent_ drugs if you pursue this way. 
+
+Drugs on the market are carefully designed to be highly potent and selective.
+
+It's statistically likely that impurities are not potent, which means they are not going to cause anything that matters, given that they occupy <2% by mass, which is the usual grade of reagent purity. Nature is not smart enough to randomly generate potent toxins. Usual carcinogens are not potent. 
+
+Just beware to not take potent toxins, such as nitrosamines.
+
+## How do know If I can take drug X 
+
+Toxicology follows this precedence
+
+- Cytotoxicity
+    - If you see studies on some drug causing cell death at concentration Y, take notice it means you can't have systematic exposure larger than X. 
+- Enzyme assay
+    - A rule of thumb of mine is that I typically ignore any drug that does not work at nanomolar level. They are useless papers. 
+    - Some drugshave activity at everything at nanomolar level, which very dirty.
+- Transcriptional profile
+    - Drugs influence the usual expression of genes, and may produce long term effects on epigenetics. 
+- Animal studies
+
+The problems with natural drugs are, overwhelmingly,
+
+- Unacceptably low bioavailability 
+    - A lot of drugs I've seen have such problem
+- Uselessly high EC50
+    - They tend to be at milli molar levels.
 
 # Raloxifene Esters for injection, Low budget synthesis tutorial
 
@@ -54,7 +95,15 @@ EtAc is a perfect agent for reducing viscosity in this setting, while stablizing
 
 Sterilization is to be done with 0.22um PTFE filter. 
 
-TODO.
+## Testing the performance of some common PTFE filter on market
+
+The membrane filters were obtained from Aliexpress. 
+
+Methods
+
+- Filtration of 0.5um semi rounded TiO2 particles suspended in walnut oil. 
+    - Later, with walnut oil and EtAc, which is the actual carrier.
+- Direct examination of membrane under an optical microscope.
 
 ## Pharmacology and rationale
 
@@ -127,3 +176,141 @@ https://link.springer.com/article/10.1007/BF02383389
 > However, raloxifene inhibited the proliferation of the human breast cancer cell line, MCF-7, with IC50=0.2 nM
 
 Still, I see many variables in this, cell free assay, in vivo assay, IC50, Kd, data derived from cancer cell lines (they differ significantly normal cells), etc. Many results are not comparable. The situation is nuanced.
+
+## Microcrystalline suspension of Ralox-ester
+
+It's possible to make fine particles with EtAc precipitation, and ditch oil carrier as a whole. 
+
+TODO: examine particle size. 
+
+https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049
+
+The palmitate ester doesn't dissolve in the oil vehicle anyway. I don't see the point of using oil.
+
+> The concentrations of medroxyprogesterone acetate decrease exponentially until they become undetectable (<100 pg/mL) between 120 to 200 days following injection. Using an unextracted radioimmunoassay procedure for the assay of medroxyprogesterone acetate in serum, the apparent half-life for medroxyprogesterone acetate following IM administration of Depo-Provera CI is approximately 50 days
+
+```
+For Depo-Provera CI vials, each mL of sterile aqueous suspension contains:
+
+Medroxyprogesterone acetate
+	
+150 mg
+
+Polyethylene glycol 3350
+
+28.9 mg
+
+Polysorbate 80
+
+2.41 mg
+```
+
+TODO: check if PEG4000 can pass through filter. 
+
+The way oil solution works is purely through oil-water partitioning so the drug continually leeches into extracellular fluid. In the same way microcrystalline solution could work. Particle sizes should influence the dynamics which is a problem.
+
+If EtAc or any organic solvents are used, Nylon and PES membranes will be unusable.
+
+To prevent the particles from getting into blood veseels or lymphatic system, the sizes should be around 5um to 100um. They also get taken up by macrophages, which can be a bad thing if subcutaneously injected drug gets cleared early.
+
+To accomodate those who don't have a microscope, passing the suspension through a pore filter should remove particles that are too small, acting as a quality check at least. Particles are ok as long as they pass through 30G needle.
+
+## Another run of Raloxifene-palmitate synthesis in 2Me-THF
+
+The steps were repeated as above. 
+
+Raloxifene apparently showed better solubility in 2MeTHF. An excess of palmitoyl chloride was added. 
+
+Within an hour a milky white suspension appeared. 
+
+Add ethanol to scanvenge the acyl chloride into ethyl palmitate. 
+
+The suspension is a bit too stable. Add EtAC.
+
+Still too stable. Some water was added.
+
+I shouldn't have added EtOH. It prevented precipitation.
+
+Neutralization of reactive agents and impurity removal should be done after the thing is dried up.
+
+Solubility is excellent at 100C for this mixture of solvents. It formed very clear yellow solution.
+
+Solution was left to boil at 110C. 
+
+### Refined purification protocol
+
+The ester powder is repeatedly washed with EtAc alone, centrifuged. Remove supernatant, add more EtAc. Pipette a drop of the supernatant onto a pH test strip. Stop when it shows neutral and powder doesn't smell. Dry it up completely on a heatpad at 80C. 
+
+Powder must be fully dried up for precise dosing.
+
+### Analysis of the EtAc suspension of the esters
+
+- 3mg ralox ester, light yellow powder
+- 803mg EtAc
+
+Stable milky white suspension formed.
+
+When the suspension is dried in air, 
+
+![](./in_air.png)
+
+The software is written by me, at https://github.com/ple1n/microscope_egui
+
+![](./calibrate.png)
+
+When EtAc is not dried up, the particles are smaller and less numerous.
+
+![](./wet.png)
+
+Goals 
+
+- Sterilize the drug
+- Form microcrystaline solution
+
+Attempt 1, direct filtration of resultant liquid
+
+- 10mg Ralox
+- 10uL EtAc, dispersed, forming dense milky liquid.
+- Add 400uL water fast.
+
+Esters instantly precipitated. Fail.
+
+- 10uL EtOH was added. Didnt work
+
+Second vial
+
+- 6.9mg Ralox ester added
+- Less than 50uL Tween20
+- 400uL water
+- Works.
+- Push it through 0.22um 
+- The particles got removed. Fail.
+
+Third vial
+
+- 4mg Ralox added
+- Yes I can filter with this solution first but this has dead volume, which is costly for, like, producing one vial for each time I use it. I prefer preparing injectables ad hoc. Less sanitation risk.
+- 200uL water
+- Filter. Fail. 
+
+Probably better to keep the DMSO + oil + EtAc method.
+
+or, filter water, and ester solution separately, and mix them in a sterile tube.
+
+- 2mL centrifuge filtration tube. 
+    - Dissolve the ester in DMSO
+- Filter water with syringe filter
+- Mix both, which forms a suspension.
+
+DMSO should leech out quickly, leaving precipitate in the tissue. 
+
+DMSO causes typical syringe piston to swell. Use syringes without rubber piston. 
+
+## HPLC-MS analysis
+
+Two samples were sent for analysis
+
+1. Raloxifene-dipalmitate that was reacted in exclusively EtAc
+2. Raloxifene-dipalmitate that was reacted in 2Me-THF
+
+## Addendum: my preferred technique of injection
