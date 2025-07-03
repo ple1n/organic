@@ -40,7 +40,15 @@ The problems with natural drugs are, overwhelmingly,
 - Uselessly high EC50
     - They tend to be at milli molar levels.
 
-# Raloxifene Esters for injection, Low budget synthesis tutorial
+You can take a drug if it passes phase 1 clinical trial, which tests for toxicity.
+
+# Raloxifene formulation for injection, Low budget preparation
+
+TODO. Raloxifene isobutyrate synthesis.
+
+## raloxifene-palmitate synthesis (not recommended)
+
+> Raloxifene palmitate crystal is too hard to dissolve.
 
 Obtain Raloxifene (freebase) directly, or through the following method.
 
@@ -55,9 +63,11 @@ Raloxifene-HCl
 
 Raloxifene
 
-- Bright yellow powder with no fluorecence under 365nm
-- Forms a suspension in EtAc
+- Bright yellow to white powder with no fluorecence under 365nm
+- Forms a suspension in anhydrous EtAc
 - Excellent solubility in DMSO, and slightly worse in EtOH (Ethanol)
+- Color is solvent dependent. Raloxifene is bright yellow in EtAc, and white in 2MeTHF
+    - Color remains after solvent is removed. Probably a matter of crystal structure.
 
 Shake the liquid thorougly until all powder turned bright yellow, and no red fluorecence is seen.
 
@@ -306,11 +316,77 @@ DMSO should leech out quickly, leaving precipitate in the tissue.
 
 DMSO causes typical syringe piston to swell. Use syringes without rubber piston. 
 
+## Why am I taking this and what can you expect from that
+
+Raloxifene is a [selective estrogen](https://en.wikipedia.org/wiki/Selective_estrogen_receptor_modulator) which means it acts like estradiol in some places, and antagonizes such effects in other places. 
+
+In particular, it can be used to suppress breat development. 
+
+With raloxifene alone taking it increases your T levels due to its negative action in HPA axis, ie. as an antagonist in the brain.
+
+The trick is to use it with Estradiol. They, theoretically act competitively and produce an interlaced effect overall.
+
+Raloxifene co-administration should allow me to dose Estradiol to a level that suppresses T to castration levels. It being antagonist centrally is indeed against this goal.
+
+In this [table](https://en.wikipedia.org/wiki/Toremifene#:~:text=Tissue-specific), `hot flashes` implies it's anti estrogenic centrally.  
+
 ## HPLC-MS analysis
 
 Two samples were sent for analysis
 
 1. Raloxifene-dipalmitate that was reacted in exclusively EtAc
 2. Raloxifene-dipalmitate that was reacted in 2Me-THF
+
+It turned out the color of powder was unreliable as an indicator
+
+![](image.png)
+
+![](image-1.png)
+
+The freebase remained unreacted, despite visible change of color of the suspension. 
+
+![](image-2.png)
+
+It shows that EtAc can purify the sample to 99.9% however. 
+
+> Note this is done by washing away impurities with EtAc, not dissolving Ralox freebase in EtAc.
+
+There was no interesting difference between the two samples.
+
+I later retried the synthesis with EtAc+2meTHF with roughly equimolar Palmitoyl chloride and Triethylamine. 
+
+- The HPLC-MS proved that I have a freebase Raloxifene
+- 3mg Ralox was added to 2mL cyclohexane, forming reluctant white suspension. 
+- 3mg new reaction product was added to 2mL cyclohexane, forming milky yellow suspension. 
+    - It should be roughly 1 micron small yellow particles by my experience, and as follows.
+- The yellow suspension was centrifuged. The supernatant was clean, with yellow sediment
+- Supernatant was extracted from both tubes, which were transparent colorless liquid. 95% EtOH and NaOH were added.
+    - The new product turned yellow
+    - The raloxifene tube remained white suspension.
+
+The supernatant can only be solutions, of cyclohexane. Saponification showed that the new product contained significant amounts of ralox-esters.
+
+EtAc can dissolve Ralox into 1 micro sized suspension, which means it can extract impurities that are trapped in the solid mass.
+
+- 2mg Ralox-ester was added to 2mL EtAc. Clear liquid with yellow sediment
+- 1mg ralox-ester added to 1mL 95% EtOH. Almost insoluble
+- 1.6mg Ralox-freebase added to 1mL 95% EtOH. Perfectly clear solution.
+- 1.3mg Ralox-freebase added to 1mL EtAc. Milky suspension.
+- 4mg to 400uL walnut oil
+- 4.7mg ralox ester to 1mL EtAc
+
+- 9mg ester, 100uL DMSO. Poorly soluble.
+
+The ester synthesis will be retried with an extra step to remove triethylamine salt.
+
+Theoretically, for depot forms of drugs with oil or microcrystalline solution, the only determinant factor is Log-P. So there is no actual need to make esters of Raloxifene. 
+
+Intravenously given estradiol esters have half lives of minutes. 
+
+It makes more sense to try to increase solubility with esterification.
+
+## Visualization of monoester presence 
+
+It should be possible to detect non esterified `-OH` groups with https://en.wikipedia.org/wiki/Dansyl_chloride
 
 ## Addendum: my preferred technique of injection
