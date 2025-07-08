@@ -18,7 +18,8 @@ Drugs on the market are carefully designed to be highly potent and selective.
 
 It's statistically likely that impurities are not potent, which means they are not going to cause anything that matters, given that they occupy <2% by mass, which is the usual grade of reagent purity. Nature is not smart enough to randomly generate potent toxins. Usual carcinogens are not potent. 
 
-Just beware to not take potent toxins, such as nitrosamines. 
+Just beware to not take potent toxins, such as nitrosamines.
+
 
 ## How do know If I can take drug X 
 
@@ -85,9 +86,6 @@ This is strictly not anecdotal, because I follow scientific method in determinin
     - 2nd generation NSAIDs
         - _Celecoxib_
     - Don't be fooled by the momentum of popular choice of _Diclofenac_ and the like. Just go for 2nd gen.
-- Fatigue
-    - Rapamycin, almost a meme drug that has very diverse effects, including epigenetics, immune system. 
-    - Allopurinol. Inhibits uric acid production when fructose is taken. UA is speculated to cause mitochondrial dysfunction follow fructose consumption.
 
 ### Hormonal therapy
 
@@ -102,20 +100,6 @@ Medications to avoid
 The drop-in alternative Bicalutamide
 
 > Elevated liver enzymes (transaminitis) are seen in about 6% of patients, but serious liver injury is rare. Discontinuation due to liver problems is rare, occurring in approximately 1% of cases
-
-List of possibilities I have experimented with, or propose. 
-
-- Partial feminization therapy, _getting rid of masculinity_
-
-Combination of SERM and estrogens can ideally achieve an androgynous phenotype, while suppressing growth of boobs. 
-
-[Experimental log](./ralox.md) documented my brief experimentation with Raloxifene-esters.
-
-- Castration therapy, _a return to childhood_
-
-Yet again, I am offering the option of doing daily _Triptorelin_ injection which can be readily obtained from research chemical suppliers. 
-
-Triptorein has longest half life of the available GnRHs. Initially the drug is given daily; after GnRH gets desensitized, injections are given at a less frequency.
 
 ### Topical drugs, the preparation
 
