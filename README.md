@@ -117,6 +117,16 @@ Yet again, I am offering the option of doing daily _Triptorelin_ injection which
 
 Triptorein has longest half life of the available GnRHs. Initially the drug is given daily; after GnRH gets desensitized, injections are given at a less frequency.
 
+- Raloxifene + Bicalutamide/GnRH
+
+It's unclear, nor there is any study on what parts of body Raloxifene feminize. It causes a raise in androgens due to HPA feedback which needs Bica, or GnRH suppresion. 
+
+Bicalutamide causes a raise in circulating androgens. I bet low dose Bica can elevate androgens to what roiders what. Only at a level beyond bodily capacity to produce androgen can it suppress androgenic effects.
+
+Triptorelin acetate at 0.1mg, daily. https://www.ferring.ca/media/1394/decapeptyl-01-mg-pm_control-no-291110-en_04mar2025.pdf
+
+Use normal saline or PBS buffer to make the solution. I always used pure water for the fear of going hypertonic, which ended up giving me 'stings'.
+
 ### Topical drugs, the preparation
 
 Here is a guide to low budget, low volume preparation of topical drugs. 
