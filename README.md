@@ -123,9 +123,23 @@ It's unclear, nor there is any study on what parts of body Raloxifene feminize. 
 
 Bicalutamide causes a raise in circulating androgens. I bet low dose Bica can elevate androgens to what roiders what. Only at a level beyond bodily capacity to produce androgen can it suppress androgenic effects.
 
+### Triptorelin, the castration drug
+
 Triptorelin acetate at 0.1mg, daily. https://www.ferring.ca/media/1394/decapeptyl-01-mg-pm_control-no-291110-en_04mar2025.pdf
 
+The drug was bought as a reagent. Theoretically it's possible to to have a GnRH agonist with half life longer than Triptorelin (around 6 hrs), like a week.
+
 Use normal saline or PBS buffer to make the solution. I always used pure water for the fear of going hypertonic, which ended up giving me 'stings'.
+
+The drug dissolved well in pure water, surprisingly. But next time I will use PBS or normal saline.
+
+TODO. Ongoing experiment.
+
+### Tirzepatide, the weight loss drug
+
+I bought this as a reagent as usual, for 10x cost saving.
+
+Ongoing experiment.
 
 ### Topical drugs, the preparation
 
