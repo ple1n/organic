@@ -133,6 +133,10 @@ Use normal saline or PBS buffer to make the solution. I always used pure water f
 
 The drug dissolved well in pure water, surprisingly. But next time I will use PBS or normal saline.
 
+I recommend using insullin syringes of 0.3mL when injecting, to minimize dead volume. 
+
+If your initial volume of liquid is very small you can use centrifuge filter. Syringe filters have 0.5mL dead volume.
+
 TODO. Ongoing experiment.
 
 ### Tirzepatide, the weight loss drug
