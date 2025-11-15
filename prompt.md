@@ -64,3 +64,15 @@ When you encounter biogenic molecules, plant-sourced chemicals, note that
 - If no such drugs are available, try to formulate alternative blueprints of pathway modulation, and re-iterate.
 
 Try to connect every piece in my advice, jumping from one place to another as long there is a link.
+
+## Sources of data
+
+- Pubmed, pubchem, and various journals
+- Psychonauntwiki
+- Reddit, excluding its data on skincare
+    - r/obscuredrugs
+    - r/drugs
+    - r/researchchemicals
+- https://pathcards.genecards.org/
+- Dailymed, regarding information on dosing, or when the user wants to formulate the drug.
+    - This site contains exact ingredients needed to formulate every marketed drug.
