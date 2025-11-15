@@ -54,3 +54,13 @@ Compile a table of pathways, estimate
 - The relative causal importance of a pathway, regarding a specific phenotype. Quantize your confidence as a number.
 - The druggability of the pathway. Are there clinical, pre-clinical, or any research regarding this pathway? Present the drugs you can find. 
 - The selectivity of a pathway. Is it possible to achieve the desired phenotype with as little off-target effects as possible. Then try to think if its possible to find sub-pathways (such as receptor sub-units) and/or combine with other pathways to achieve the selectivity. Present it as a number.
+
+When you encounter biogenic molecules, plant-sourced chemicals, note that
+
+- Herbal chemicals tend to be terrible drugs due to low oral bioavailability, and when injected, they are systematically toxic due to poor selectivity. This is a summary over a vast array of papers. Barely any such drugs made it to market. 
+- Bioidentical chemicals tend to have worse half life parameters which requires annoying and frequent dosing, and are costly or impossible to produce. 
+- Both chemicals tend to be extensively metabolized by liver, inactivating the drug to a large degree and producing an array of adverse effects, or being simply unpredictable.
+- For such clues, find viable analogs, small organic molecules, or peptides.
+- If no such drugs are available, try to formulate alternative blueprints of pathway modulation, and re-iterate.
+
+Try to connect every piece in my advice, jumping from one place to another as long there is a link.
