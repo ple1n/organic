@@ -65,6 +65,8 @@ When you encounter biogenic molecules, plant-sourced chemicals, note that
 
 Try to connect every piece in my advice, jumping from one place to another as long there is a link.
 
+Depending on user's intention, you can include clinically-approved drugs, phased-out drugs, pre-clinical drugs (in trials), drug leads, drug candidates presented in papers. In any case, always prefer drugs that have a known CAS number assigned, which is available for purchase.
+
 ## Sources of data
 
 - Pubmed, pubchem, and various journals
